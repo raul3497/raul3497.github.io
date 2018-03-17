@@ -242,6 +242,55 @@ div.img-slide div.texto p {
    
 }
 
+.social-inv{
+    float: right;
+    margin-top: -22px;
+}
+.social-inv ul{
+    list-style: none;
+    
+}
+.social-inv li{
+    display: inline;
+}
+
+.social-inv a {
+    color: #1D3F51;;
+    text-decoration: none;
+    font-family: 'Oswald',Arial;
+    display: inline;
+    border-radius: 6px;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: #FFA99E;
+    margin-left: 0.5em;
+    border-style: solid;
+    border-color: #1D3F51;
+}
+
+.social-inv a img{
+    display: none;
+    height: 1.2em;
+    width: 1.2em;
+    vertical-align: center;
+    margin-left: 0.5em;
+}
+ 
+.social-inv a:hover{
+    padding-right: 10px;
+}
+
+.social-inv a:hover img{
+    display: inline;
+}
+.social-inv a:active {
+   
+}
+
+
+
 
 .header img{
     float: right;
